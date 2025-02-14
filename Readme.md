@@ -1,6 +1,6 @@
 ﻿# Pet Adoption Match: Find Your Perfect Pet
 
-# Render Link: https://s85-adoptbuddy-3.onrender.com/ping
+# Render Link: https://s85-adoptbuddy.onrender.com/ping
 
 ## Project Overview
 Pet Adoption Match is a MERN stack-based platform designed to help individuals find pets that match their lifestyle, living situation, and preferences. Users fill out a questionnaire about their activity level, home space, and pet care experience, and receive personalized pet recommendations. Shelters and pet owners can list adoptable pets, making the adoption process easier and more accessible.
