@@ -1,12 +1,14 @@
 const express = require('express');
-// const connectDB = require('./db/db'); // Import DB connection
+const connectDB = require('./db/db'); // Import DB connection
 require('dotenv').config(); // Load .env variables
 
 const app = express();
 const port = process.env.PORT || 3000;
 
 // Connect to MongoDB
-// connectDB();
+connectDB();
+
+app.use(express.json())
 
 // Basic /ping route
 app.get('/ping', (req, res) => {
@@ -14,6 +16,7 @@ app.get('/ping', (req, res) => {
 });
 
 // Start server
+
 app.listen(port, () => {
   console.log(`Server is running at http://localhost:${port}`);
 });
